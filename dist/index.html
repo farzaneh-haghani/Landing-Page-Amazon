@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - My Landing Page</title>
+  <title>My Landing Page</title><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<head>
+  <title>My Landing Page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <header id="header">
+    <div class="flex">
+      <img id="header-img" src="https://freebeacon.com/wp-content/uploads/2014/11/Amazon-Logo-.jpg" alt="Amazon Logo">
+      <div>
+        <input type="text" class="search-text">
+        <button type="submit" class="search-button"> <i class="fa fa-search"></i></button>
+      </div>
+        <a class="amazon-link" href="https://www.amazon.com" target="_blank">Click here to go to amazon.com</a>
+    </div>
+    <nav id="nav-bar">
+      <ul>
+        <li><a href="#Customer" class="nav-link">Customer Service</a></li>
+        <li><a href="#Sell" class="nav-link">Sell</a></li>
+        <li><a href="#Registry" class="nav-link">Registry</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="black">
+    </div>
+    <section id="Customer" class="flex justify">
+      <div class="container-customer">
+        <h1 class="title-customer">What makes customer service at Amazon, difference?</h1>
+        <iframe id="video" src="https://www.youtube.com/embed/8TRhDSgqYzs">
+        </iframe>
+      </div>
+    </section>
+    <section id="Sell" class="flex justify">
+      <div class="left-container-sell">
+        <h1 class="title-sell">Become an<br>Amazon seller</h1>
+        <p class="text-sell">More than half the units sold in our stores are from <br>independent sellers.</p>
+        <img src="https://images-na.ssl-images-amazon.com/images/G/01/rainier/nav/SellerCentral_Bliss._CB485924389_.png" alt="Amazon seller central" class="img-form-sell">
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+          <h1>Get started selling on Amazon</h1>
+          <label for="email" class="label-style">Email</label><br>
+          <input type="email" id="email" class="box-style" name="email" placeholder="abc@gmail.com" required />
+          <p><label for="password" class="label-style">Password</label><br>
+          <input type="password" id="password" class="box-style" name="password"></p> 
+          <input type="submit" id="submit" value="Next"><br>
+        </form>
+      </div>
+      <img src="https://m.media-amazon.com/images/G/01/sell/images/prime-boxes/prime-boxes-2.png" class="img-box-sell" alt="Amazon-box">
+    </section>
+    <section id="Registry" class="flex justify">
+      <div class="up-container-registry">
+        <h1 class="title1-registry">Registry & Gifting</h1>
+        <p class="text-registry">Whether you’re celebrating a wedding, a baby, a birthday, or other memorable milestone,
+          our registries and gift lists will help you and your guests find the perfect gifts.</p>
+        <div class="down-container-registry">
+          <h1>Find a registry or gift list</h1>
+          <form id="form-registry"> 
+            <label for="name" class="label-style">Registrant name:</label><br>
+            <input type="text" id="name" class="box-style" placeholder="Search by register name" name="search" required>
+            <select class="box-style">
+              <option hidden>Select a registry or gift list type</option>
+              <option value="Wedding">Wedding Registry</option>
+              <option value="Baby">Baby Registry</option>
+              <option value="Birthday">Birthday Gift List</option>
+              <option value="Custom">Custom Gift List</option>
+            </select>
+            <button type="submit" class="button-style">Search</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
