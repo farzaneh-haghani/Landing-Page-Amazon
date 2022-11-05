@@ -1,5 +1,5 @@
 body{
-  background-color: white;
+  background-color: rgb(244, 248, 9);
   color: black;
   font-family: "Times New Roman";
 }
@@ -25,7 +25,7 @@ body{
   min-width: 500px;
 }
 .search-button{
-  background-color: #ffbf6c;
+  background-color: #06520a;
   padding: 8px 15px;
   margin: -10px;
 }
